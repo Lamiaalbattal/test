@@ -11,6 +11,10 @@
 		E0CD81AA290E85E80004D028 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CD81A9290E85E80004D028 /* ContentView.swift */; };
 		E0CD81AC290E85E80004D028 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0CD81AB290E85E80004D028 /* Assets.xcassets */; };
 		E0CD81AF290E85E80004D028 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0CD81AE290E85E80004D028 /* Preview Assets.xcassets */; };
+		E0CD81B6290E860E0004D028 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CD81B5290E860E0004D028 /* SplashScreen.swift */; };
+		E0CD81B8290E861B0004D028 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CD81B7290E861B0004D028 /* MainView.swift */; };
+		E0CD81BA290E89460004D028 /* loginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CD81B9290E89460004D028 /* loginPage.swift */; };
+		E0CD81BC290E89560004D028 /* signupPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CD81BB290E89560004D028 /* signupPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		E0CD81A9290E85E80004D028 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E0CD81AB290E85E80004D028 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0CD81AE290E85E80004D028 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E0CD81B5290E860E0004D028 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		E0CD81B7290E861B0004D028 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		E0CD81B9290E89460004D028 /* loginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginPage.swift; sourceTree = "<group>"; };
+		E0CD81BB290E89560004D028 /* signupPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signupPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				E0CD81A7290E85E80004D028 /* lsApp.swift */,
 				E0CD81A9290E85E80004D028 /* ContentView.swift */,
+				E0CD81B5290E860E0004D028 /* SplashScreen.swift */,
+				E0CD81B7290E861B0004D028 /* MainView.swift */,
+				E0CD81B9290E89460004D028 /* loginPage.swift */,
+				E0CD81BB290E89560004D028 /* signupPage.swift */,
 				E0CD81AB290E85E80004D028 /* Assets.xcassets */,
 				E0CD81AD290E85E80004D028 /* Preview Content */,
 			);
@@ -137,6 +149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0CD81BC290E89560004D028 /* signupPage.swift in Sources */,
+				E0CD81B6290E860E0004D028 /* SplashScreen.swift in Sources */,
+				E0CD81B8290E861B0004D028 /* MainView.swift in Sources */,
+				E0CD81BA290E89460004D028 /* loginPage.swift in Sources */,
 				E0CD81AA290E85E80004D028 /* ContentView.swift in Sources */,
 				E0CD81A8290E85E80004D028 /* lsApp.swift in Sources */,
 			);
